@@ -7,8 +7,7 @@ The program includes a method for each exception, with user prompts and proper h
  
  * It covers various types of exceptions, including IO exceptions, runtime exceptions, and custom simulations.
    
-1.IOException: Simulates reading a non-existent file.
-
+###1.IOException: Simulates reading a non-existent file.
 ```java
 public class simulateIOException {
 private static void simulateIOException() {
@@ -24,9 +23,9 @@ private static void simulateIOException() {
         }
     }
 }
+```
 
-
-2.FileNotFoundException: Demonstrates a specific exception when a file is missing.
+### 2.FileNotFoundException: Demonstrates a specific exception when a file is missing.
 ```java
 public class simulateFileNotFoundException {
    private static void simulateFileNotFoundException() {
@@ -42,8 +41,9 @@ public class simulateFileNotFoundException {
     }
 
 }
+```
 
-3.EOFException: Handles attempts to read beyond the content of a file.
+### 3.EOFException: Handles attempts to read beyond the content of a file.
 ```java
 public class simulateEOFException {
   private static void simulateEOFException() {
@@ -63,9 +63,9 @@ public class simulateEOFException {
     }
 
 }
+```
 
-
-4.SQLException: Simulates a database connection error.
+### 4.SQLException: Simulates a database connection error.
 ```java
 public class simulateSQLException {
   private static void simulateSQLException() {
@@ -79,9 +79,9 @@ public class simulateSQLException {
     }
 
 }
+```
 
-
-5.ClassNotFoundException: Simulates a failure to load a class at runtime.
+### 5.ClassNotFoundException: Simulates a failure to load a class at runtime.
 ```java
 public class simulateClassNotFoundException {
   private static void simulateClassNotFoundException() {
@@ -93,8 +93,9 @@ public class simulateClassNotFoundException {
 }
 
 }
+```
 
-6.ArithmeticException: Handles division by zero scenarios.
+### 6.ArithmeticException: Handles division by zero scenarios.
 ```java
 public class simulateArithmeticException {
    private static void simulateArithmeticException() {
@@ -114,8 +115,9 @@ public class simulateArithmeticException {
     }
 
 }
+```
 
-7.NullPointerException: Simulates accessing a method on a null reference.
+### 7.NullPointerException: Simulates accessing a method on a null reference.
 ```java
 public class simulateNullPointerException {
   private static void simulateNullPointerException() {
@@ -128,8 +130,9 @@ public class simulateNullPointerException {
 }
 
 }
+```
 
-8.ArrayIndexOutOfBoundsException: Manages invalid array index access.
+### 8.ArrayIndexOutOfBoundsException: Manages invalid array index access.
 ```java
 public class simulateArrayIndexOutOfBoundsException {
   private static void simulateArrayIndexOutOfBoundsException() {
@@ -149,8 +152,9 @@ public class simulateArrayIndexOutOfBoundsException {
     }
 
 }
+```
 
-9.ClassCastException: Demonstrates type casting errors.
+### 9.ClassCastException: Demonstrates type casting errors.
 ```java
 public class simulateClassCastException {
   private static void simulateClassCastException() {
@@ -163,8 +167,9 @@ public class simulateClassCastException {
 }
 
 }
+```
 
-10.IllegalArgumentException: Handles invalid arguments passed to a method.
+### 10.IllegalArgumentException: Handles invalid arguments passed to a method.
 ```java
 public class simulateIllegalArgumentException {
   private static void simulateIllegalArgumentException() {
@@ -178,8 +183,9 @@ public class simulateIllegalArgumentException {
 }
 
 }
+```
 
-11.NumberFormatException: Catches invalid string-to-integer conversions.
+### 11.NumberFormatException: Catches invalid string-to-integer conversions.
 ```java
 public class simulateNumberFormatException {
   private static void simulateNumberFormatException() {
@@ -195,6 +201,7 @@ public class simulateNumberFormatException {
 }
 
 }
+```
 
 
 ## where to find the main code
