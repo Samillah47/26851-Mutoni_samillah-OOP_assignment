@@ -25,7 +25,7 @@ private static void simulateIOException() {
 }
 ```
 
-### 2.FileNotFoundException: Demonstrates a specific exception when a file is missing.
+### 2.FileNotFoundException: Executes a specific exception when a file is missing.
 ```java
 public class simulateFileNotFoundException {
    private static void simulateFileNotFoundException() {
