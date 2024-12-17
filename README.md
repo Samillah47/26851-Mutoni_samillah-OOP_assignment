@@ -7,7 +7,7 @@ The program includes a method for each exception, with user prompts and proper h
  
  * It covers various types of exceptions, including IO exceptions, runtime exceptions, and custom simulations.
    
-###1.IOException: Simulates reading a non-existent file.
+### 1.IOException: Simulates reading a non-existent file.
 ```java
 public class simulateIOException {
 private static void simulateIOException() {
